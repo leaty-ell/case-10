@@ -1,3 +1,7 @@
+# Part of case-study #10
+# DEVELOPERS: Nazarenko V., Smorodina A., Ponasenko E., Limanova E.
+#
+
 from data_importer import import_financial_data
 from transaction_classifier import categorize_all_transactions
 from financial_analyst import calculate_basic_stats, calculate_by_category, analyze_by_time
@@ -97,3 +101,4 @@ def print_financial_report(stats: dict, category_stats: dict, budget: dict, tran
 
 if __name__ == "__main__":
     main()
+
